@@ -1,7 +1,14 @@
 import "./App.css";
+import { DiAtom } from "react-icons/di";
 
 function App() {
-  return <>내가 일케 바꿨슴둥</>;
+  return (
+    <>
+      <p className="bg-slate-500">
+        아아아 <DiAtom></DiAtom>
+      </p>
+    </>
+  );
 }
 
 export default App;
