@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <>sadas또 왜이래 시발</>;
+  return <>내가 일케 바꿨슴둥</>;
 }
 
 export default App;
