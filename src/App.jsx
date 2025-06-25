@@ -1,12 +1,11 @@
 import "./App.css";
 import { DiAtom } from "react-icons/di";
+import Hello from "./01/Hello";
 
 function App() {
   return (
     <>
-      <p className="bg-slate-500">
-        아아아 <DiAtom></DiAtom>
-      </p>
+      <Hello />
     </>
   );
 }
