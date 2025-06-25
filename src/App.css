@@ -1,0 +1,20 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.clock-image {
+  width: 200px; /* 원하는 크기로 조절 */
+  height: auto;
+  margin-bottom: 16px;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
