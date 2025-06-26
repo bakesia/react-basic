@@ -1,10 +1,9 @@
 import { useState } from "react";
 
 export default function MyListItem(props) {
-  let [cnt, setCnt] = useState(0);
+  const [cnt, setCnt] = useState(0);
   const handleClick = () => {
-    cnt++;
-    setCnt(cnt);
+    setCnt(cnt + 1);
     console.log("cnt = ", cnt);
   };
   return (
