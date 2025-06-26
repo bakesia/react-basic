@@ -1,13 +1,24 @@
 import "./App.css";
-import { DiAtom } from "react-icons/di";
-import MyClock from "./02/MyClock";
-import MyClockTime from "./02/MyClockTime";
+// import MyClock from "./02/MyClock";
+// import Mydiv1 from "./03/Mydiv1";
+import { RiHomeHeartFill } from "react-icons/ri";
+import MyList from "./04/MyList";
 
 function App() {
   return (
-    <div className="app-container">
-      <MyClock />
-      <MyClockTime />
+    <div className="flex flex-col w-full h-screen mx-auto">
+      <header className="flex justify-between items-center text-xl font-bold h-20 p-10 bg-slate-200">
+        <p>리액트 기초</p>
+        <p>
+          <RiHomeHeartFill />
+        </p>
+      </header>
+      <main className="grow w-full flex justify-center items-center overflow-y-auto">
+        <MyList />
+      </main>
+      <footer className="flex justify-center items-center h-20 bg-black text-slate-100">
+        copyright : ybh
+      </footer>
     </div>
   );
 }
