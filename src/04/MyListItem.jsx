@@ -17,7 +17,9 @@ export default function MyListItem(props) {
           <p>{props.content}</p>
         </div>
         <div className="flex justify-end items-center">
-          <span onClick={handleClick}>👍</span>
+          <span onClick={handleClick} className="cursor-pointer">
+            👍
+          </span>
           <span className="inline-flex mx-2 font-bold">like</span>
           <span className="font-bold text-xl">{cnt}</span>
         </div>

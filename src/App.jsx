@@ -1,8 +1,9 @@
 import "./App.css";
 // import MyClock from "./02/MyClock";
 // import Mydiv1 from "./03/Mydiv1";
+// import MyList from "./04/MyList";
+import lotto from "./05/lotto";
 import { RiHomeHeartFill } from "react-icons/ri";
-import MyList from "./04/MyList";
 
 function App() {
   return (
