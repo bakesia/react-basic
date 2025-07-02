@@ -11,6 +11,7 @@ import Traffic from "./06/Traffic";
 import MyRefAdd from "./07/MyRefAdd";
 import Gallery from "./08/Gallery";
 import RecoilMain from "./10/RecoilMain";
+import Rest from "./11/Rest";
 
 import { RiHomeHeartFill } from "react-icons/ri";
 
@@ -39,6 +40,9 @@ function App() {
             <li className="mx-2 p-2 rounded-md hover:bg-white hover:text-blue-600">
               <Link to="/recoil">리코일</Link>
             </li>
+            <li className="mx-2 p-2 rounded-md hover:bg-white hover:text-blue-600">
+              <Link to="/rest">레스트</Link>
+            </li>
           </ul>
           <p>
             <Link to="/">
@@ -54,6 +58,7 @@ function App() {
             <Route path="/add" element={<MyRefAdd />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/recoil" element={<RecoilMain />} />
+            <Route path="/rest" element={<Rest />} />
           </Routes>
         </main>
         <footer className="flex justify-center items-center h-20 bg-black text-slate-100">

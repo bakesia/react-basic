@@ -15,7 +15,7 @@ export default function RecoilMydiv1() {
     if (localStorage.getItem("n")) {
       setN(parseInt(localStorage.getItem("n")));
     }
-  }, []);
+  }, [setN]);
 
   return (
     <div className="flex flex-col p-5 justify-center items-center w-2/3 h-2/3 text-2xl bg-lime-900 text-white">

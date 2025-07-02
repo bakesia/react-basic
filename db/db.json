@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": "3a16",
+      "title": "태종대 관광하기",
+      "author": "김치"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "body": "This is comment1."
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "body": "This is comment2."
+    }
+  ]
+}
