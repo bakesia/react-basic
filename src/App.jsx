@@ -11,7 +11,7 @@ import Traffic from "./06/Traffic";
 import MyRefAdd from "./07/MyRefAdd";
 import Gallery from "./08/Gallery";
 import RecoilMain from "./10/RecoilMain";
-import Rest from "./11/Rest";
+import Rest from "./12/Rest";
 
 import { RiHomeHeartFill } from "react-icons/ri";
 
