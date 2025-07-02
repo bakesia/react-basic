@@ -69,7 +69,7 @@ export default function Rest() {
     const putData = {
       id: isUpdateId,
       title: txt1Ref.current.value,
-      author: txt2Ref.current.value,
+      auth: txt2Ref.current.value,
     };
 
     // const resp = await fetch(`${url}/${isUpdateId}`, {
