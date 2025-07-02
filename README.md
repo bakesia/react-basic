@@ -1,12 +1,9 @@
-# React + Vite
+# React Basic Project
+인프런 강의 '리액트 기초' 내용을 바탕으로 한 프로젝트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 프로젝트 소개
+- React로 만든 간단한 동적 웹 사이트
+- 간단한 기능과 UI를 연습하며 React 기초를 학습.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 데모 링크
+[https://react-basic-theta-one.vercel.app/](https://react-basic-theta-one.vercel.app/)
